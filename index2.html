@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style2.css">
+
+  <title>Portfolio -T Rishita Reddy</title>
+</head>
+<body>
+  <header>
+    <h1>T Rishita Reddy</h1>
+    <p>Portfolio</p>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am T Rishita Reddy, I am doing my  B.Tech degree in Computer Science from Graphic Era Deemed to be University in Dehradun, Uttarakhand. I have a keen interest in web development and machine learning. I had made my projects using web development and have a hand on experience with HTML, CSS, JavaScript, PHP, ReactJS, NodeJs, and Python. I am eager and committed to continuing my learning journey to further enhance my skills and knowledge in the field.</p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML5, CSS, JavaScript,PHP</li>
+        <li>React, Express</li>
+        <li>C, C++, JAVA, Python</li>
+        <li>Database Management (SQL, MongoDB, Oracle)</li>
+      </ul>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project" onmouseover="glow(this)" onmouseout="stopGlow(this)">
+        <h3>Portfolio Website</h3>
+        <p>Showcasing my skills, experience, and projects in an interactive way.</p>
+      </div>
+      <div class="project" onmouseover="glow(this)" onmouseout="stopGlow(this)">
+        <h3>E-Commerce Website</h3>
+        <p>Developed an e-commerce platform for vegetable shopping.</p>
+      </div>
+      <div class="project" onmouseover="glow(this)" onmouseout="stopGlow(this)">
+        <h3>Hate Speech Detection using Machine learning</h3>
+        <p>Used various machine learning algorithms to detect whether the text contains hatespeech or not.</p>
+      </div>
+      <div class="project" onmouseover="glow(this)" onmouseout="stopGlow(this)">
+        <h3>Quiz Management System using Java</h3>
+        <p>Developed a quiz system using JAVA(JDBC) with a basic GUI.</p>
+      </div>
+      <div class="project" onmouseover="glow(this)" onmouseout="stopGlow(this)">
+        <h3>Hospital Management System uaing Full Stack Web Development</h3>
+        <p>Made a Hospital Management System using Full Stack for inpatients, outpatients, records, treatments, and illness status.</p>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <h3>Let's connect! Reach me through</h3>
+      <ul>
+        <li>Phone: 766****106, 975****140</li>
+        <li>Email: rishitareddy123@gmail.com</li>
+        <li>Address: Dehradun, Uttarakhand</li>
+      </ul>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; T Rishita Reddy. All rights reserved.</p>
+  </footer>
+  <script>
+    function glow(element) {
+      element.style.boxShadow = "0 8px 16px rgba(0, 0, 0, 0.2)";
+    }
+
+    function stopGlow(element) {
+      element.style.boxShadow = "0 4px 8px rgba(0, 0, 0, 0.1)";
+    }
+  </script>
+</body>
+</html>
